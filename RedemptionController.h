@@ -15,6 +15,9 @@
 	IBOutlet NSTextField *fahrenheitField;
 }
 
-- (IBAction)updateTemperatures:(id)sender;
+- (void)awakeFromNib;
+- (IBAction)takeKelvinValue:(id)sender;
+- (IBAction)takeCelsiusValue:(id)sender;
+- (IBAction)takeFahrenheitValue:(id)sender;
 
 @end

@@ -11,24 +11,31 @@
 
 @implementation RedemptionController
 
-- (IBAction)updateTemperatures:(id)sender {
-	float kelvinValue, celsiusValue, fahrenheitValue;
-	if (sender == kelvinField) {
-		celsiusValue = [sender floatValue] - 273.15;
-		fahrenheitValue = [sender floatValue] * (9.0/5.0) - 459.67;
-	}
-	if (sender == celsiusField) {
-		kelvinValue = [sender floatValue] + 273.15;
-		fahrenheitValue = [sender floatValue] * (9.0/5.0) + 32;
-	}
-	if (sender == fahrenheitField) {
-		kelvinValue = ([sender floatValue] + 459.67) * (5.0/9.0);
-		celsiusValue = ([sender floatValue] - 32) * (5.0/9.0);
-	}
-	
-	if (sender != kelvinField) [kelvinField setFloatValue:kelvinValue];
-	if (sender != celsiusField) [celsiusField setFloatValue:celsiusValue];
-	if (sender != fahrenheitField) [fahrenheitField setFloatValue:fahrenheitValue];
+- (void)awakeFromNib {
+	[kelvinField setFloatValue:0];
+	[self takeKelvinValue:kelvinField];
+}
+
+- (BOOL)applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication {
+	return YES;
+}
+
+- (IBAction)takeKelvinValue:(id)sender {
+	float value = [sender floatValue];
+	[celsiusField setFloatValue:(value - 273.15)];
+	[fahrenheitField setFloatValue:(value * 9.0/5.0 - 459.67)];
+}
+
+- (IBAction)takeCelsiusValue:(id)sender {
+	float value = [sender floatValue];
+	[kelvinField setFloatValue:(value + 273.15)];
+	[fahrenheitField setFloatValue:(value * 9.0/5.0 + 32)];
+}
+
+- (IBAction)takeFahrenheitValue:(id)sender {
+	float value = [sender floatValue];
+	[kelvinField setFloatValue:((value + 459.67) * 5.0/9.0)];
+	[celsiusField setFloatValue:((value - 32) * 5.0/9.0)];
 }
 
 @end
