@@ -4,6 +4,9 @@
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 7351DB520F16293C005D141B /* iRedeem */;
 		activeTarget = 8D1107260486CEB800E47090 /* iRedeem */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* iRedeem */,
+		);
 		codeSenseManager = 7351DB610F16293F005D141B /* Code sense */;
 		executables = (
 			7351DB520F16293C005D141B /* iRedeem */,
@@ -45,12 +48,13 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 1;
+		breakpointsEnabled = 0;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
