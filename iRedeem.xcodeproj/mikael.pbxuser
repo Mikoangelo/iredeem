@@ -139,6 +139,7 @@
 			7351DBE50F168BE2005D141B /* PBXTextBookmark */ = 7351DBE50F168BE2005D141B /* PBXTextBookmark */;
 			7351DBE70F168CDD005D141B /* PBXTextBookmark */ = 7351DBE70F168CDD005D141B /* PBXTextBookmark */;
 			7351DBE80F168CEA005D141B /* PBXTextBookmark */ = 7351DBE80F168CEA005D141B /* PBXTextBookmark */;
+			7351DBED0F1694BA005D141B /* PBXTextBookmark */ = 7351DBED0F1694BA005D141B /* PBXTextBookmark */;
 		};
 		sourceControlManager = 7351DB600F16293F005D141B /* Source Control */;
 		userBuildSettings = {
@@ -211,8 +212,8 @@
 	7351DB7D0F16580C005D141B /* RedemptionController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {746, 611}}";
-			sepNavSelRange = "{580, 0}";
-			sepNavVisRange = "{30, 1127}";
+			sepNavSelRange = "{323, 0}";
+			sepNavVisRange = "{42, 1120}";
 		};
 	};
 	7351DB9F0F167FCF005D141B /* PBXBookmark */ = {
@@ -662,6 +663,16 @@
 		rType = 0;
 		vrLen = 1127;
 		vrLoc = 30;
+	};
+	7351DBED0F1694BA005D141B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 7351DB7D0F16580C005D141B /* RedemptionController.m */;
+		name = "RedemptionController.m: 19";
+		rLen = 0;
+		rLoc = 323;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 42;
 	};
 	8D1107260486CEB800E47090 /* iRedeem */ = {
 		activeExec = 0;

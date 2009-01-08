@@ -349,7 +349,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>7351DBE80F168CEA005D141B</string>
+										<string>7351DBED0F1694BA005D141B</string>
 										<key>history</key>
 										<array>
 											<string>7351DBA00F167FCF005D141B</string>
@@ -552,7 +552,7 @@
 	<key>StatusbarIsVisible</key>
 	<true/>
 	<key>TimeStamp</key>
-	<real>253136106.71156999</real>
+	<real>253138106.56227201</real>
 	<key>ToolbarDisplayMode</key>
 	<integer>1</integer>
 	<key>ToolbarIsVisible</key>
@@ -569,8 +569,8 @@
 	<array>
 		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>7351DB630F162969005D141B</string>
 		<string>/Users/mikael/Projects/iRedeem/iRedeem.xcodeproj</string>
+		<string>7351DB630F162969005D141B</string>
 	</array>
 	<key>WindowString</key>
 	<string>406 218 1015 822 0 0 1600 1178 </string>
@@ -663,7 +663,7 @@
 			<key>WindowToolGUID</key>
 			<string>7351DB630F162969005D141B</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
