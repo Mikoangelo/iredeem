@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'iRedeem' target in the 'iRedeem' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
