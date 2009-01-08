@@ -20,6 +20,11 @@
 	return YES;
 }
 
+- (void)controlTextDidChange:(NSNotification *)aNotification {
+	id textField = [aNotification object];
+	[self performSelector:[textField action] withObject:textField];
+}
+
 - (IBAction)takeKelvinValue:(id)sender {
 	float value = [sender floatValue];
 	[celsiusField setFloatValue:(value - 273.15)];
