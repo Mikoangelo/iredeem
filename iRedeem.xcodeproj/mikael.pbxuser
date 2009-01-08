@@ -12,14 +12,42 @@
 			7351DB520F16293C005D141B /* iRedeem */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXErrorsWarningsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					300,
+					325,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXErrorsWarningsDataSource_TypeID,
+					PBXErrorsWarningsDataSource_MessageID,
+					PBXErrorsWarningsDataSource_LocationID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					323,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					341,
+					435,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -34,8 +62,37 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					395,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
 			PBXPerProjectTemplateStateSaveDate = 253110589;
 			PBXWorkspaceStateSaveDate = 253110589;
+		};
+		perUserProjectItems = {
+			7351DB760F16575A005D141B /* PBXBookmark */ = 7351DB760F16575A005D141B /* PBXBookmark */;
+			7351DB770F16575A005D141B /* PlistBookmark */ = 7351DB770F16575A005D141B /* PlistBookmark */;
+			7351DB780F16575A005D141B /* PlistBookmark */ = 7351DB780F16575A005D141B /* PlistBookmark */;
+			7351DB790F16575A005D141B /* PBXBookmark */ = 7351DB790F16575A005D141B /* PBXBookmark */;
+			7351DB7A0F16575A005D141B /* PlistBookmark */ = 7351DB7A0F16575A005D141B /* PlistBookmark */;
 		};
 		sourceControlManager = 7351DB600F16293F005D141B /* Source Control */;
 		userBuildSettings = {
@@ -75,6 +132,62 @@
 	7351DB610F16293F005D141B /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	7351DB760F16575A005D141B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7351DB700F165619005D141B /* Icon.icns */;
+	};
+	7351DB770F16575A005D141B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/mikael/Projects/iRedeem/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	7351DB780F16575A005D141B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/mikael/Projects/iRedeem/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	7351DB790F16575A005D141B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 7351DB700F165619005D141B /* Icon.icns */;
+	};
+	7351DB7A0F16575A005D141B /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = /Users/mikael/Projects/iRedeem/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	7351DB7C0F16580C005D141B /* RedemptionController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 273}}";
+			sepNavSelRange = "{273, 0}";
+			sepNavVisRange = "{0, 375}";
+		};
+	};
+	7351DB7D0F16580C005D141B /* RedemptionController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 301}}";
+			sepNavSelRange = "{333, 0}";
+			sepNavVisRange = "{0, 346}";
+		};
 	};
 	8D1107260486CEB800E47090 /* iRedeem */ = {
 		activeExec = 0;
