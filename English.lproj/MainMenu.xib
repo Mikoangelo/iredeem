@@ -1271,6 +1271,7 @@
 						<string>allowsFloats</string>
 						<string>alwaysShowsDecimalSeparator</string>
 						<string>formatterBehavior</string>
+						<string>generatesDecimalNumbers</string>
 						<string>numberStyle</string>
 					</object>
 					<object class="NSMutableArray" key="dict.values">
@@ -1278,6 +1279,7 @@
 						<integer value="1" id="9"/>
 						<integer value="0"/>
 						<integer value="1040"/>
+						<integer value="1"/>
 						<reference ref="9"/>
 					</object>
 				</object>
